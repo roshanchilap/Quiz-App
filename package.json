@@ -1,6 +1,6 @@
 {
   "Homapage":"https://roshanchilap.github.io/Quiz-App",
-  "name": "todolist",
+  "name": "quizapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
