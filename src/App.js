@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import FlashcardsList from "./FlashcardsList";
 import "./App.css";
 import axios from "axios";
+import { faChessQueen } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   const [flashcards, setFlashcards] = useState([]);
@@ -54,6 +56,7 @@ function App() {
   return (
     <div className="background">
       <form className="header" onSubmit={handleSubmit}>
+        <FontAwesomeIcon icon={faChessQueen} color="Dodgerblue" size="2x" />
         <h1>Quiz App</h1>
         <div className="form-group">
           <label htmlFor="category">Category</label>

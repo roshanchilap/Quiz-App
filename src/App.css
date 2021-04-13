@@ -13,9 +13,10 @@ body {
 }
 h1 {
   margin-right: 680px;
+  color: cornflowerblue;
 }
 .container {
-  max-width: 1400px;
+  max-width: 900px;
   margin: 1rem 2rem;
 }
 .header {
